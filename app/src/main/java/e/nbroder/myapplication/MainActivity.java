@@ -2,6 +2,7 @@ package e.nbroder.myapplication;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -17,6 +18,12 @@ public class MainActivity extends AppCompatActivity {
         // Code you add goes after the setContentView
         mMessageTextView = findViewById(R.id.message_textview);
 
-        mMessageTextView.setText("Niall is the coolest programmer ever!!!!!");
+        // temp area
+        //mMessageTextView.setText("Niall is the coolest programmer ever!!!!!");
+        Log.d("HB", "This is a log cat log. Logs are important!");
+
+
+
+
     }
 }
